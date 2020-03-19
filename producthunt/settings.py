@@ -131,3 +131,15 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
+
+# For saving media files
+# this will automatically make a directory.
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# media/images/filename
+
+
+MEDIA_URL = '/media/'
+# if someone wants to get the media that we have uploaded
+# then they will go to this path.
+# eg localhost/admin/media/images/filename when we open using browser admin
+# we can put anything instead of media
