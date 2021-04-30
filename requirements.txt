@@ -54,7 +54,7 @@ sqlparse==0.3.0
 srsly==0.1.0
 thinc==7.0.8
 tqdm==4.36.1
-urllib3==1.25.6
+urllib3==1.25.8
 URLObject==2.4.3
 wasabi==0.2.2
 Werkzeug==0.16.0
